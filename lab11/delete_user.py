@@ -1,6 +1,5 @@
 import psycopg2
 
-# Connect to the PostgreSQL database
 conn = psycopg2.connect(dbname="phonebook_db", user="postgres", password="1234", host="localhost")
 cur = conn.cursor()
 
